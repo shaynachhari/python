@@ -33,25 +33,3 @@ shayna = Students("Shayna chhari", "51")
 
 print(shayna.print_details())
 print(nitin.print_details())
-#****************************
-
-
-class Family:
-    father_name = "Na"
-    mother_name = "Na"
-    self_name = "Na"
-
-
-    def __init__(self,father_name , mother_name , self_name):
-        self.father_name = father_name
-        self.mother_name = mother_name
-        self.self_name = self_name
-        pass
-
-    def details(self):
-        return f'My Father name is --> {self.father_name}\nMy Mother name is --> {self.mother_name}\nMy name is -->{self.self_name}'
-    pass
-
-house = Family("MSR. Surendar chhari","MS. Anita chhari","Shayna chhari")
-print(house.details())
-

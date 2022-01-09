@@ -15,6 +15,8 @@ class Employee:
     def one(cls, string):
         return cls(*string.split("-"))
 
+
+
     def details(self):
         return f"{self.name} and their no. is {self.phone}"
     pass

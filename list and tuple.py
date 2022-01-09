@@ -1,4 +1,4 @@
-lst = ["shayna" , "shivani" ,"varsha" , "pallavi", "kashish" ,11]
+lst = ["shayna" , "shivani" ,"varsha" , "pallavi","kashish",11]
 print(lst)
 print(lst[5])
 print(lst[4])
